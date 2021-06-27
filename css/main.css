@@ -1,0 +1,25 @@
+.hero-area-wrapper {
+  height: 600px;
+  background-color: #222;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+
+
+html,body {
+  font-family: 'Raleway', sans-serif;
+  color: #aaa
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}

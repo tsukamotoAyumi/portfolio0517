@@ -1,0 +1,189 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    color: #333;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+
+  header{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+
+
+  footer {
+      background-color: #222;
+      padding: 70px 0 30px;
+  }
+
+ .copyrigth{
+     text-align: center;
+     color: #fff;
+     font-size: 1.8rem;
+ }
+
+ .list{
+     max-width: 960px;
+     margin: 0 auto;
+     display: flex;
+     flex-flow: row wrap-reverse;
+ }
+ .list-item{
+    width: 100%;
+
+ }
+
+ @media (min-width: 376px){
+    .list-item{
+        width: calc(100%/2);
+    }
+
+ }
+ @media (min-width: 640px){
+    .list-item{
+        width: calc(100%/3);
+    }
+    .container_aboutme {
+        display: flex;
+    }
+    .left.margintop {
+        margin-top: 10px;
+    }
+    .right.margintop {
+        margin-top: 30px;
+    }
+    .rigth{
+        padding: 0 30px;
+    }
+ } 
+ @media screen and (max-width: 480px) { 
+    .list-item-img {
+        padding-right: 30px;
+    }
+    ul{
+        margin-right: 15%;
+    }
+ }
+ @media (min-width: 769px){
+    .list-item{
+        width: calc(100%/3);
+    }
+    .rigth{
+        margin-top: 15%;
+    }
+    .swiper-button-prev{
+        margin-left: 10%;
+    }
+    .swiper-button-next{
+        margin-right: 10%;
+        color: #646260;
+    }
+ }
+
+ .list-item-img {
+     text-align: center;
+ }
+ .list-item-img img {
+    width: 110%;
+    height: 110%;
+
+ }
+
+ .menutitle {
+    padding-left: 10px;
+    color: #584131;
+    text-align: center;
+}
+
+.list-item-txt {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.contentTitle{
+    text-align: center;
+    max-width: 960px;
+    margin: 50px auto 10px;
+    font-size: 4rem;
+    color: #bbb;
+    padding: 0 20px;
+}
+
+.divider{
+    border: none;
+    border-top: 1px solid #CFD8DC;
+    margin: 28px auto 0;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.container_aboutme{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.profileimg{
+    max-width: 384px;
+}
+.profileimg img{
+    width: 100%;
+}
+
+.sub_title{
+    color: #f47402;
+    font-size: 2.0rem;
+    margin-bottom: -5px;
+}
+
+.about_list{
+    padding-left: 20px;
+}
+.container_item{
+    width: 100%;
+}
+
+article{
+    padding-bottom: 30px;
+}
+.workDate{
+    font-size: 3.0rem;
+}
+.works_item{
+    text-align: center;
+
+
+    margin-bottom: 5%;
+}
+ul {
+    list-style: none;
+  }
+li{
+    text-align: center;
+}
+.works_text,.works_ul{
+    padding-bottom: 3%;
+}
+
+
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition : all 600ms;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+
+.swiper-button-prev {
+    color: #646260;
+}
