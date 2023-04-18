@@ -45,12 +45,6 @@ html {
 
  }
 
- @media (min-width: 376px){
-    .list-item{
-        width: calc(100%/2);
-    }
-
- }
  @media (min-width: 640px){
     .list-item{
         width: calc(100%/3);
